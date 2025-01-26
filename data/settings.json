@@ -212,12 +212,12 @@
 					{
 						"name": "Freek",
 						"url": "https://freek.to/",
-						"icon": "fa-s:ghost"
+						"icon": "far:ghost"
 					},
 					{
 						"name": "Miruro",
 						"url": "https://www.miruro.tv/",
-						"icon": "fa-s:shield-cat"
+						"icon": "far:shield-cat"
 					}
 				]	
 			},
