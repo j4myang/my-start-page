@@ -1,5 +1,5 @@
 {
-	"username": "Excalith",
+	"username": "Jamyang",
 	"theme": {
 		"name": "Default",
 		"backgroundColor": "#121317",
@@ -16,7 +16,7 @@
 		"gray": "#97989d"
 	},
 	"wallpaper": {
-		"url": "assets/default-wallpaper.svg",
+		"url": "assets/custom-2.svg",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
@@ -31,7 +31,7 @@
 	},
 	"prompt": {
 		"ctrlC": true,
-		"placeholder": "command...",
+		"placeholder": "",
 		"placeholderColor": "gray",
 		"userColor": "green",
 		"atColor": "gray",
@@ -65,24 +65,14 @@
 		"hoverColor": "magenta"
 	},
 	"search": {
-		"default": "https://google.com/search?q=",
+		"default": "https://duckduckgo.com/?q=",
 		"target": "_self",
 		"shortcutRegex": "([A-Za-z0-9]+) (.*)",
 		"shortcuts": [
 			{
-				"alias": "g",
-				"name": "Google Search",
-				"url": "https://google.com/search?q={}"
-			},
-			{
 				"alias": "d",
 				"name": "DuckDuckGo Search",
 				"url": "https://duckduckgo.com/?q={}"
-			},
-			{
-				"alias": "b",
-				"name": "Brave Search",
-				"url": "https://search.brave.com/search?q={}"
 			},
 			{
 				"alias": "gh",
@@ -96,8 +86,8 @@
 			},
 			{
 				"alias": "r",
-				"name": "Subreddit Search",
-				"url": "https://reddit.com/r/{}"
+				"name": "Reddit Search",
+				"url": "https://reddit.com/search/?q={}"
 			},
 			{
 				"alias": "w",
@@ -114,24 +104,39 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Portfolio",
-						"url": "https://cancellek.com",
-						"icon": "mdi:web"
+						"name": "FMHY",
+						"url": "https://fmhy.net/",
+						"icon": "fa-solid:play"
 					},
 					{
-						"name": "Keybase",
-						"url": "https://keybase.io/",
-						"icon": "fa-brands:keybase"
+						"name": "Claude AI",
+						"url": "https://claude.ai/",
+						"icon": "simple-icons:claude"
 					},
 					{
-						"name": "GPT",
+						"name": "ChatGPT",
 						"url": "https://chat.openai.com/",
 						"icon": "simple-icons:openai"
 					},
 					{
-						"name": "OCI",
-						"url": "https://www.oracle.com/cloud/",
-						"icon": "simple-icons:oracle"
+						"name": "GMail",
+						"url": "https://mail.google.com/",
+						"icon": "simple-icons:gmail"
+					},
+					{
+						"name": "GDrive",
+						"url": "https://drive.google.com/",
+						"icon": "simple-icons:googledrive"
+					},
+					{
+						"name": "Proton Mail",
+						"url": "https://mail.proton.me/",
+						"icon": "simple-icons:protonmail"
+					},
+					{
+						"name": "Proton Drive",
+						"url": "https://drive.proton.me/",
+						"icon": "simple-icons:protondrive"
 					}
 				]
 			},
@@ -141,19 +146,14 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "GitHub",
-						"url": "https://github.com",
+						"name": "GitHub Profile",
+						"url": "https://github.com/j4myang",
 						"icon": "mdi:github"
 					},
 					{
-						"name": "GitLab",
-						"url": "https://gitlab.com",
-						"icon": "ph:gitlab-logo-simple-fill"
-					},
-					{
-						"name": "Dev.to",
-						"url": "https://dev.to",
-						"icon": "material-symbols:logo-dev"
+						"name": "GitHub",
+						"url": "https://github.com",
+						"icon": "mdi:github"
 					},
 					{
 						"name": "Stack Overflow",
@@ -169,25 +169,57 @@
 				"links": [
 					{
 						"name": "Twitter",
-						"url": "https://twitter.com",
+						"url": "https://x.com",
 						"icon": "mdi:twitter"
 					},
 					{
-						"name": "Mastodon",
-						"url": "https://mastodon.social/",
-						"icon": "ri:mastodon-fill"
+						"name": "Facebook",
+						"url": "https://facebook.com/",
+						"icon": "simple-icons:facebook"
+					},
+					{
+						"name": "Messenger",
+						"url": "https://messenger.com/",
+						"icon": "simple-icons:messenger"
+					},
+					{
+						"name": "Instagram",
+						"url": "https://instagram.com/",
+						"icon": "simple-icons:instagram"
 					},
 					{
 						"name": "Reddit",
 						"url": "https://reddit.com",
 						"icon": "mdi:reddit"
-					},
-					{
-						"name": "Polywork",
-						"url": "https://polywork.com",
-						"icon": "simple-icons:polywork"
 					}
 				]
+			},
+			{
+				"title": "Entertainment",
+				"color": "blue",
+				"align": "left",
+				"links": [
+					{
+						"name": "YouTube",
+						"url": "https://youtube.com",
+						"icon": "simple-icons:youtube"
+					},
+					{
+						"name": "YouTube Music",
+						"url": "https://music.youtube.com",
+						"icon": "simple-icons:youtubemusic"
+					},
+					{
+						"name": "Freek",
+						"url": "https://freek.to/",
+						"icon": "fa-s:ghost"
+					},
+					{
+						"name": "Miruro",
+						"url": "https://www.miruro.tv/",
+						"icon": "fa-s:shield-cat"
+					}
+				]	
 			},
 			{
 				"title": "Gaming",
@@ -203,22 +235,12 @@
 						"name": "IGN",
 						"url": "https://ign.com",
 						"icon": "mdi:currency-sign"
-					},
-					{
-						"name": "RPS",
-						"url": "https://rockpapershotgun.com/",
-						"icon": "ph:toilet-paper-bold"
-					},
-					{
-						"name": "80lv",
-						"url": "https://80.lv/",
-						"icon": "tabler:hand-rock"
 					}
 				]
 			},
 			{
-				"title": "Science",
-				"color": "blue",
+				"title": "Science & Tech",
+				"color": "yellow",
 				"align": "left",
 				"links": [
 					{
@@ -231,23 +253,6 @@
 						"url": "fa6-solid:user-astronaut",
 						"icon": "mdi:reddit"
 					},
-					{
-						"name": "NASA",
-						"url": "https://blogs.nasa.gov/",
-						"icon": "simple-icons:nasa"
-					},
-					{
-						"name": "ESA",
-						"url": "https://blogs.esa.int/",
-						"icon": "mdi:black-mesa"
-					}
-				]
-			},
-			{
-				"title": "Tech",
-				"color": "yellow",
-				"align": "left",
-				"links": [
 					{
 						"name": "TechCrunch",
 						"url": "https://techcrunch.com/",
@@ -262,11 +267,6 @@
 						"name": "It's Foss",
 						"url": "https://itsfoss.com/",
 						"icon": "ri:mastodon-fill"
-					},
-					{
-						"name": "9To5 Linux",
-						"url": "https://9to5linux.com/",
-						"icon": "uil:linux"
 					}
 				]
 			}
